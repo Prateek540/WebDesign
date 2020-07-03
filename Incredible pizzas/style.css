@@ -1,0 +1,255 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body
+{
+    
+    font-family: 'Open Sans', sans-serif;
+    color: #FF007F;
+}
+header
+{
+    width: 100vw;
+    height: 100vh;
+}
+nav
+{
+    width: 90%;
+    margin: 10px auto;
+    text-align: right;
+}
+nav ul li
+{
+    display: inline-block;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: #FF007F;
+    font-size: 20px;
+    margin: 0px 10px;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+nav ul li a:hover
+{
+    text-decoration: underline;
+}
+
+.strapline-container
+{
+    border: 2px solid #FF007F;
+    width: 90%;
+    height: 85%;
+    margin: auto auto;
+    text-align: center;
+    background-image: url("images/pic1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.main-strapline
+{
+    font-size: 120px;
+    text-transform: uppercase;
+    margin: 50px 0;
+    font-family: 'Poppins','sans-serif';
+}
+.second-strapline
+{
+    color: #FFFFDD;
+    font-size: 35px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-title
+{
+    text-align: center;
+    font-family: 'Poppins','sans-serif';
+    text-transform: uppercase;
+    font-size: 240%;
+    margin-bottom: 25px;
+}
+.about-section
+{
+    width: 100vw;
+    height: 90vh;
+}
+.about-container
+{
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+.left-box
+{
+    width: 45%;
+    text-align: justify;
+    line-height: 220%;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+}
+.right-box
+{
+    width: 40%;
+    margin-left: 6%;
+}
+.top-row,.bottom-row
+{
+    display: flex;
+    flex-direction: row;
+}
+.grid-image-one
+{
+    width: 50%;
+    height: 240px;
+    background-image: url(images/pic2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.grid-image-two
+{
+    width: 50%;
+    height: 240px;
+    background-image: url(images/pic3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.grid-image-three
+{
+    width: 50%;
+    height: 240px;
+    background-image: url(images/pic4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.grid-image-four
+{
+    width: 50%;
+    height: 240px;
+    background-image: url(images/pic5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.pizza-section
+{
+    width: 100vw;
+}
+.image-container
+{
+    width: 100%;
+}
+.row-one,.row-two,.row-three
+{
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+}
+.grid-item
+{
+    width: 30%;
+    height: 310px;
+    display: inline-block;
+    margin: 15px;
+    background-size: cover;
+    background-position: center;
+}
+.grid-item:hover
+{
+    opacity: 0.6;
+}
+#pizza-one
+{
+    background-image: url(images/pic6.jpg);
+}
+#pizza-two
+{
+    background-image: url(images/pic7.jpg);
+}
+#pizza-three
+{
+    background-image: url(images/pic8.jpg);
+}
+#pizza-four
+{
+    background-image: url(images/pic9.jpg);
+}
+#pizza-five
+{
+    background-image: url(images/pic10.jpg);
+}
+#pizza-six
+{
+    background-image: url(images/pic11.jpg);
+}
+#pizza-seven
+{
+    background-image: url(images/pic12.jpg);
+}
+#pizza-eight
+{
+    background-image: url(images/pic13.jpg);
+}
+#pizza-nine
+{
+    background-image: url(images/pic14.jpg);
+}
+.store-section
+{
+    width: 100vw;
+}
+.store-container
+{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.store-div
+{
+    width: 30%;
+    height: 240px;
+    margin: 20px;
+    text-align: center;
+}
+h4
+{
+    font-size: 150%;
+}
+.contact-section
+{
+    width: 100vw;
+    height: 50vh;
+    background-color: #FF007F;
+    text-align: center;
+    color: #FFFFDD;
+}
+.contact-title
+{
+    margin: 25px 0;
+    font-family: 'Poppins','sans-serif';
+    text-transform: uppercase;
+    font-size: 250%;
+}
+.email
+{
+    font-size: 140%;
+}
+.social-media-div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40vw;
+    margin: 0 auto;
+}
+.social-media-icon
+{
+    margin: 0px 7.5px;
+}
